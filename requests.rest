@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/shoes
+
+
+POST http://localhost:5000/api/shoe/new
+Content-Type: application/json
+{
+    "title":"Nike",
+    "price":"50",
+    "image":"https://images.app.goo.gl/3GBUVswPrd74xmxQ9"
+}
